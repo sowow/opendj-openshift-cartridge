@@ -56,8 +56,13 @@ Scaling:
   Max: -1
 Endpoints:
   - Private-IP-Name:   LDAP_HOST
-    Private-Port-Name: 3128
+    Private-Port-Name: LDAP_PORT
+    Private-Port:      3128
     Public-Port-Name:  LDAP_PROXY_PORT
   - Private-IP-Name:   LDAP_HOST
-    Private-Port-Name: 24444
+    Private-Port-Name: ADMIN_PORT
+    Private-Port:      24444
     Public-Port-Name:  ADMIN_PROXY_PORT
+Install-Build-Required: false
+Additional-Control-Actions:
+    - threaddump
