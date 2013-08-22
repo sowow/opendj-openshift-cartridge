@@ -10,10 +10,9 @@ Cartridge-Vendor: lexxoff
 Vendor: forgerock
 Source-Url: https://bitbucket.org/lexxoff/opendj-openshift-cartridge.git
 Categories:
-  - service
-  - database
   - ldap
-  - embedded
+  - service
+  - web_framework
 Website: http://forgerock.com/what-we-offer/open-identity-stack/opendj/
 Cart-Data:
   - Key: OPENSHIFT_OPENDJ_LOG_DIR
