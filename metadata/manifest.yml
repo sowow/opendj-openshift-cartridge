@@ -56,6 +56,17 @@ Scaling:
   Max: -1
 Endpoints:
   - Private-IP-Name:   LDAP_HOST
+    Private-Port-Name: HTTP_PORT
+    Private-Port:      8080
+    Public-Port-Name:  HTTP_PROXY_PORT
+    Mappings:
+      - Frontend:      ""
+        Backend:       ""
+        Options:       { "websocket": 1}
+      - Frontend:      "/health"
+        Backend:       ""
+        Options:       { health: true}
+  - Private-IP-Name:   LDAP_HOST
     Private-Port-Name: LDAP_PORT
     Private-Port:      3128
     Public-Port-Name:  LDAP_PROXY_PORT
