@@ -10,9 +10,10 @@ Cartridge-Vendor: lexxoff
 Vendor: forgerock
 Source-Url: https://bitbucket.org/lexxoff/opendj-openshift-cartridge.git
 Categories:
-  - ldap
   - service
-  - web_framework
+  - database
+  - ldap
+  - embedded
 Website: http://forgerock.com/what-we-offer/open-identity-stack/opendj/
 Cart-Data:
   - Key: OPENSHIFT_OPENDJ_LOG_DIR
@@ -59,3 +60,4 @@ Endpoints:
     Private-Port-Name: LDAP_PORT
     Private-Port:      3128
     Public-Port-Name:  LDAP_PROXY_PORT
+Install-Build-Required: false
