@@ -2,7 +2,7 @@
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 function run_hook() {
-  local path="$OPENSHIFT_REPO_DIR/.openshift/action_hooks/$1"
+  local path="$OPENSHIFT_DATA_DIR/opendj/bin/$1"
   if [ -f "$path" -a -x "$path" ]
   then
     "$path"
@@ -13,12 +13,12 @@ function run_hook() {
 
 function start() {
     echo "Starting opendj cartridge"
-    run_hook start
+    run_hook start-ds
 }
 
 function stop() {
     echo "Stopping opendj cartridge"
-    run_hook stop
+    run_hook stop-ds
 }
 
 function restart() {
