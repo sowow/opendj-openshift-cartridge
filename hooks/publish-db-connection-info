@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Exit on any errors
-set -e
 
 echo "OPENSHIFT_GEAR_DNS=$OPENSHIFT_GEAR_DNS"
 echo "OPENSHIFT_OPENDJ_LDAP_HOST=$OPENSHIFT_OPENDJ_LDAP_HOST"
