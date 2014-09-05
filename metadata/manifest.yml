@@ -8,7 +8,7 @@ Cartridge-Version: 0.0.1
 Compatible-Versions: [0.0.1]
 Cartridge-Vendor: lexxoff sowow
 Vendor: forgerock
-Source-Url:https://github.com/sowow/opendj-openshift-cartridge.git
+Source-Url: https://github.com/sowow/opendj-openshift-cartridge.git
 Categories:
   - ldap
   - service
