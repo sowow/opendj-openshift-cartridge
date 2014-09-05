@@ -6,7 +6,7 @@ Version: '2.6.0'
 Versions: [2.6.0]
 Cartridge-Version: 0.0.1
 Compatible-Versions: [0.0.1]
-Cartridge-Vendor: "lexxoff sowow"
+Cartridge-Vendor: "lexxoff"
 Vendor: forgerock
 Source-Url: https://github.com/sowow/opendj-openshift-cartridge.git
 Categories:
