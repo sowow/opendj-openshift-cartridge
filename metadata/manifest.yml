@@ -54,6 +54,10 @@ Publishes:
 Scaling:
   Min: 1
   Max: -1
+Group-Overrides:
+  - components:
+    - ldap
+    - web_proxy
 Endpoints:
   - Private-IP-Name:   LDAP_HOST
     Private-Port-Name: LDAP_PORT
